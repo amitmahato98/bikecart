@@ -57,15 +57,49 @@ a .bxs-cart-download {
     align-items: center;
     flex-direction: row;
     padding-right: 2rem;
-    /* line-height: 25%; */
+    
 }
-/* .business{
-    width: 30%;
+/* how it works section */
+.working{
+    padding-top: 1.5rem;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
 }
-.customers{
-    width: 30%;
+.find,.ride,.book{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-} */
+    width: 28%;
+    padding: 2rem 1rem;
+    gap: 1rem;
+    
+}
+.find:hover,.ride:hover,.book:hover{
+    transition: 0.5s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+}
+.find .bx-cycling, .ride .bx-wink-smile{
+    font-size: 6rem;
+    color: red;
+    border: 1px solid red;
+    padding: 1rem;
+}
+.book .bxs-cart-add {
+    font-size: 6rem;
+    color: red;
+    border: 1px solid red;
+    padding: 1rem;
+}
+.find .bx-cycling:hover,.book .bxs-cart-add:hover,.ride .bx-wink-smile:hover{
+    background-color: red;
+    color: #fff;
+    transition: 0.9s;
+    border-radius: 10px;
+}
+
+
+
