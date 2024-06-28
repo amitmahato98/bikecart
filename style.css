@@ -128,17 +128,3 @@ a .bxs-cart-download {
 .imgyamaha:hover,.imgAprilia:hover,.imgRoyal:hover,.imgTork:hover,.imgUltraviolette:hover,.imgKawasaki:hover{
     transform: scale(1.4);
 }
-/* choose your brand */
-#carouselExampleAutoplaying .carousel-inner .carousel-item img{
-    height: 150px;
-    width: 300px;
-}
-#carouselExampleAutoplaying .carousel-inner .carousel-item{
-    display: flexbox;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-
-
