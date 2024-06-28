@@ -1,28 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a .bxs-cart-download{
+
+a .bxs-cart-download {
     text-decoration: none;
     color: white;
 }
-.cart{
+
+
+.cart {
     font-size: 3rem;
     padding-left: 1rem;
 }
-.hero{
+
+.hero {
+    padding-bottom: 2rem;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #422929;
-}
-.herotext{
-    padding: 3rem 0 3rem 5rem;
 
-    width: 40vw;
 }
-.heroimage{
-    width: 60vw;
+.about {
+    padding: 1rem 3rem 1rem 3rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
 }
+.herotext {
+    padding: 3rem 0 4rem 7rem;
+    width: 50vw;
+}
+.aboutimage {
+    width: 50vw;
+}
+.abouttext{
+    padding-left: 2rem;
+    text-wrap: wrap;
+}
+.bike-info{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.sold,.business,.customers{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 2rem;
+    /* line-height: 25%; */
+}
+/* .business{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.customers{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+} */
