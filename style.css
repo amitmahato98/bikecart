@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a .bxs-cart-download{
+    text-decoration: none;
+    color: white;
+}
+.cart{
+    font-size: 3rem;
+    padding-left: 1rem;
+}
+.hero{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #422929;
+}
+.herotext{
+    padding: 3rem 0 3rem 5rem;
+
+    width: 40vw;
+}
+.heroimage{
+    width: 60vw;
+}
