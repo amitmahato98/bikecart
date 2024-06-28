@@ -82,13 +82,7 @@ a .bxs-cart-download {
     transition: 0.5s;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
 }
-.find .bx-cycling, .ride .bx-wink-smile{
-    font-size: 6rem;
-    color: red;
-    border: 1px solid red;
-    padding: 1rem;
-}
-.book .bxs-cart-add {
+.find .bx-cycling, .book .bxs-cart-add , .ride .bx-wink-smile{
     font-size: 6rem;
     color: red;
     border: 1px solid red;
@@ -99,6 +93,40 @@ a .bxs-cart-download {
     color: #fff;
     transition: 0.9s;
     border-radius: 10px;
+}
+/* Dream bike section */
+.bikes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.dreambike{
+    padding: 4rem 5rem;
+    background-color: red;
+    color: white;
+}
+.yamaha,.Aprilia,.Royal,.Tork,.Ultraviolette,.Kawasaki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 400px; */
+    width: 32%;
+    padding: 1rem 1rem;
+    transition: 0.8s;
+}
+.yamaha:hover,.Aprilia:hover,.Royal:hover,.Tork:hover,.Ultraviolette:hover,.Kawasaki:hover{
+    border-radius: 10%;
+    box-shadow: 2px 8px 16px rgba(218, 209, 209, 0.8);
+
+}
+.imgyamaha,.imgAprilia,.imgRoyal,.imgTork,.imgUltraviolette,.imgKawasaki{
+    transition: 0.8s;
+}
+.imgyamaha:hover,.imgAprilia:hover,.imgRoyal:hover,.imgTork:hover,.imgUltraviolette:hover,.imgKawasaki:hover{
+    transform: scale(1.4);
 }
 
 
