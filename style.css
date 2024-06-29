@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a .bxs-cart-download {
@@ -200,5 +201,61 @@ a .bxs-cart-download {
     box-shadow: 0px 4px 8px rgba(235, 6, 6, 0.8);
     outline: 0.5px red solid;
 }
-
-
+.signup-forbike{ 
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 10rem;
+    text-align: center;
+    color: white;
+    height: 95vh;
+    background-image: url(signupbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+input[type="email"] {
+    border: 1px solid #ff0404;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem ;
+    outline: none;
+    color: white;
+    width: 20rem;
+    background-color:  rgba(0, 0, 0, 0.3);
+    
+}
+input[type="email"]:active{
+    background-color: #ff040425;
+}
+/* testimonals */
+.testimonals{
+    color: #fff;
+    padding: 2.5rem;
+}
+.reveiws{
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.reveiws .reveiws1,.reveiws .reveiws2,.reveiws .reveiws3{
+    border-radius: 5%;
+    box-shadow: 0px 4px 8px rgba(94, 26, 26, 0.6);
+    width: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    transition: 0.5s;
+}
+.reveiws .reveiws1:hover,.reveiws .reveiws2:hover,.reveiws .reveiws3:hover{
+    background-color: red;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.6);
+}
