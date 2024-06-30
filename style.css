@@ -259,3 +259,108 @@ input[type="email"]:active{
     background-color: red;
     box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.6);
 }
+/* blogs and news */
+.blogs-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(202, 202, 202);
+    padding: 2rem 5rem;
+    gap: 1rem;
+}
+.blogs-card a{
+color: rgb(192, 192, 192);
+text-decoration: none;
+}
+.blogs-card a{
+    /* margin: 0.5rem; */
+    width: 31%;
+    background-color: #212529;
+    /* padding: 1.5rem; */
+
+    /* box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.6); */
+    transition: 0.5s;
+}
+.blogs-card a:hover{
+    box-shadow: 5px 8px 16px rgba(255, 255, 255, 0.6);
+    transform: scale(1.08);
+    border-radius: 6%;
+}
+.blogs-card .card1,.blogs-card .card2,.blogs-card .card3{
+    box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.6);
+    background-color: #212529;
+    padding: 1rem;
+    transition: 0.5s;
+}
+.blogs-card .card1:hover,.blogs-card .card2:hover,.blogs-card .card3:hover{
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.6);
+    transform: scale(1.02);
+}
+.card1 .veiw,.card2 .veiw,.card3 .veiw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card1 h4:hover,.card2 h4:hover,.card3 h4:hover{
+    color: red;
+}
+.card1 .veiw button:hover,.card2 .veiw button:hover,.card3 .veiw button:hover{
+    background-color: transparent;
+    color: red;
+    border: 0.2px red solid;
+    transition: 0.5s;
+}
+/* .card1 img:hover,.card2 img:hover,.card3 img:hover{
+    transition: 0.5s;
+    transform: translateY(10px);
+    transform: translateY(10px);
+    
+} */
+ /* footer */
+ .footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+
+ }
+ .footer a{
+    text-decoration: none;
+    color: white;
+ }
+
+.footer .fabout{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    width: 22vw;
+    /* border: 1px red solid; */
+    padding: 1rem;
+    gap: 0.5rem;
+}
+.media i{
+    padding: 0 1rem;
+}
+.services ul li,.links ul li,.services ul li a,.links ul li a{
+    list-style-type: none;
+    transition: 0.5s;
+    padding: 0.5rem 0;
+}
+.services ul li:hover,.links ul li:hover{
+    color: #ff0000;
+    transform: translateX(5px);
+}
+.services ul li a:hover,.links ul li a:hover{
+    color: #ff0000;
+}
+.contact{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    width: 22vw;
+}
