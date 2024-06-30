@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bikestyle.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark bg-black" aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="light logo.png" alt="logo"
+                    style="height: 50px; width: 80px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Bikes</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="bike.html">New Bikes</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Find New Bikes</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Compare Bikes</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Check On-Road Price</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Locate Showrooms</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Upcoming Bikes</a></li>
+                            <li><a class="dropdown-item" href="bike.html">New Launches</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Popular Brands</a></li>
+
+                        </ul>
+                    </li>
+                
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Blogs</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="blogs.html">News</a></li>
+                            <li><a class="dropdown-item" href="blogs.html">Videos & Tips</a></li>
+                            <li><a class="dropdown-item" href="blogs.html">Expert Reviews</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="#">Faq's</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Terms & Conditions</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <form role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search"
+                        data-listener-added_ee1273c1="true">
+                </form>
+                <a href="#" class="cart"><i class='bx bxs-cart-download'></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- bike -->
+    <section id="updown" class="dreambike">
+        <h3 style="display: flex; justify-content: center; align-items:center; padding-bottom: 1rem;">YOUR RIDE START
+            <span style="color: black;">&nbsp;HERE</span>.
+        </h3>
+        <h1 style="display: flex; justify-content: center; align-items:center; padding-bottom: 1rem;">CHOOSE YOUR <span
+                style="color: black;">&nbsp;DREAM&nbsp;</span> BIKE</h1>
+        <div class="bikes">
+            <div class="yamaha bg-dark">
+                <img class="imgyamaha" src="Yamaha MT 15 V2.png" alt="Yamaha_MT15" style="height: 250px;">
+                <h5>Yamaha MT 15 V2</h5>
+                <div class="specs" style=" display: flex; align-items: center; justify-content: center; gap: 3rem;">
+                    <div class="1" style="font-size: 0.8rem;">
+                        <p>Engine : <span style="color: red;">321</span> CC</p>
+                        <p>Weight : <span style="color: red;">169</span> K</p>
+                        <p>Toque : <span style="color: red;">29.6</span> NM</p>
+                        <p>Mileage : <span style="color: red;">25</span> KMPL</p>
+                    </div>
+                    <div class="2">
+                        <p><span style="color: red;">₹ 2.80</span> LAKH</p>
+                        <p style="text-decoration: line-through;"><span style="color: red;">₹ 3.00</span> LAKH</p>
+                        <button type="button" class="btn btn-danger">Book Now</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="Aprilia bg-dark">
+                <img class="imgAprilia" src="Aprilia Tuareg 660.png" alt="Aprilia Tuareg" style="height: 250px;">
+                <h5>Aprilia Tuareg 660</h5>
+                <div class="specs" style=" display: flex; align-items: center; justify-content: center; gap: 3rem;">
+                    <div class="1" style="font-size: 0.8rem;">
+                        <p>Engine : <span style="color: red;">659</span> CC</p>
+                        <p>Weight : <span style="color: red;">1363</span> K</p>
+                        <p>Toque : <span style="color: red;">13.3</span> NM</p>
+                        <p>Mileage : <span style="color: red;">15</span> KMPL</p>
+                    </div>
+                    <div class="2">
+                        <p><span style="color: red;">₹ 15</span> LAKH</p>
+                        <p style="text-decoration: line-through;"><span style="color: red;">₹ 17</span> LAKH</p>
+                        <button type="button" class="btn btn-danger">Book Now</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="Royal bg-dark">
+                <img class="imgRoyal" src="Royal Enfield Classic 350.png" alt="Royal Enfield Classic 350"
+                    style="height: 250px;">
+                <h5>Royal Enfield Classic 350</h5>
+                <div class="specs" style=" display: flex; align-items: center; justify-content: center; gap: 3rem;">
+                    <div class="1" style="font-size: 0.8rem;">
+                        <p>Engine : <span style="color: red;">350</span> CC</p>
+                        <p>Weight : <span style="color: red;">195</span> K</p>
+                        <p>Toque : <span style="color: red;">27</span> NM</p>
+                        <p>Mileage : <span style="color: red;">41.55</span> KMPMil</p>
+                    </div>
+                    <div class="2">
+                        <p><span style="color: red;">₹ 1.93</span> LAKH</p>
+                        <p style="text-decoration: line-through;"><span style="color: red;">₹ 2.25</span> LAKH</p>
+                        <button type="button" class="btn btn-danger">Book Now</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="Tork bg-dark">
+                <img class="imgTork" src="Tork Kratos R Urban Trim.png" alt="Tork Kratos R Urban Trim"
+                    style="height: 250px;">
+                <h5>Tork Kratos R Urban Trim</h5>
+                <div class="specs" style=" display: flex; align-items: center; justify-content: center; gap: 3rem;">
+                    <div class="1" style="font-size: 0.8rem;">
+                        <p>Engine : <span style="color: red;">140</span> CC</p>
+                        <p>Weight : <span style="color: red;">140</span> K</p>
+                        <p>Toque : <span style="color: red;">19</span> NM</p>
+                        <p>Mileage : <span style="color: red;">70</span> KMPL</p>
+                    </div>
+                    <div class="2">
+                        <p><span style="color: red;">₹ 1.67</span> LAKH</p>
+                        <p style="text-decoration: line-through;"><span style="color: red;">₹ 1.70</span> LAKH</p>
+                        <button type="button" class="btn btn-danger">Book Now</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="Ultraviolette bg-dark">
+                <img class="imgUltraviolette" src="Ultraviolette F77.png" alt="Ultraviolette F77"
+                    style="height: 250px;">
+                <h5>Ultraviolette F77</h5>
+                <div class="specs" style=" display: flex; align-items: center; justify-content: center; gap: 3rem;">
+                    <div class="1" style="font-size: 0.8rem;">
+                        <p>Engine : <span style="color: red;">250</span> CC</p>
+                        <p>Weight : <span style="color: red;">207</span> K</p>
+                        <p>Toque : <span style="color: red;">13.3</span> NM</p>
+                        <p>Mileage : <span style="color: red;">307</span> KMPCharge</p>
+                    </div>
+                    <div class="2">
+                        <p><span style="color: red;">₹ 4.40</span> LAKH</p>
+                        <p style="text-decoration: line-through;"><span style="color: red;">₹ 5.50</span> LAKH</p>
+                        <button type="button" class="btn btn-danger">Book Now</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="Kawasaki bg-dark">
+                <img class="imgKawasaki" src="Kawasaki Ninja ZX-10R.png" alt="Kawasaki Ninja ZX-10R"
+                    style="height: 250px;">
+                <h5>Kawasaki Ninja ZX-10R</h5>
+                <div class="specs" style=" display: flex; align-items: center; justify-content: center; gap: 3rem;">
+                    <div class="1" style="font-size: 0.8rem;">
+                        <p>Engine : <span style="color: red;">998</span> CC</p>
+                        <p>Weight : <span style="color: red;">207</span> K</p>
+                        <p>Toque : <span style="color: red;">114.9</span> NM</p>
+                        <p>Mileage : <span style="color: red;">12</span> KMPL</p>
+                    </div>
+                    <div class="2">
+                        <p><span style="color: red;">₹ 15.99</span> LAKH</p>
+                        <p style="text-decoration: line-through;"><span style="color: red;">₹ 16.50</span> LAKH</p>
+                        <button type="button" class="btn btn-danger">Book Now</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer bg-dark">
+        <div class="fabout">
+            <h4>About Us</h4>
+            <img src="light logo.png" alt="logo" style="width: 90px; height: 90px;">
+            <p>Dive into a world of top-notch motorcycle and premium accessories. Elevate your bike's look and performance effortlessly or get your dream bike with us!</p>
+            <div class="media">
+                <a href="www.facebook.com"><i class='bx bxl-facebook fs-2'></i></a>
+                <a href=""><i class='bx bxl-instagram fs-2' ></i></a>
+                <a href=""><i class='bx bxl-github fs-2' ></i></a>
+            </div>
+        </div>
+        <div class="services p-2" style="width: 22vw;">
+            <h4>SERVICES</h4>
+            <ul>
+                <li><a href="">✔️ Dirt Bike/OEM Parts</a></li>
+                <li>✔️ <a href="">Tires</a></li>
+                <li>✔️ <a href="">Maintenance Tools</a></li>
+                <li>✔️ <a href="">Riding Gears</a></li>
+                <li>✔️ <a href="">Helmets</a></li>
+                <li>✔️ <a href="">Protections</a></li>
+            </ul>
+        </div>
+        <div class="links p-2" style="width: 22vw;">
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="">✔️ Dirt Bike/OEM Parts</a></li>
+                <li>✔️ <a href="">Privacy Policy</a></li>
+                <li>✔️ <a href="">Refund Policy</a></li>
+                <li>✔️ <a href="">Terms of Service</a></li>
+                <li>✔️ <a href="">Refurbished Products</a></li>
+                <li>✔️ <a href="">Shipping Policies</a></li>
+                <li>✔️ <a href="">Sell with Us</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h4>Contact Us</h4>
+            <div class="phone">
+                <h5>Phone Number</h5>
+                <h6>+977 9825780000</h6>
+            </div>
+            <div class="email">
+                <h5>Email Address</h5>
+                <h6>Bike@gmail.com</h6>
+            </div>
+            <div class="address">
+                <h5>Address</h5>
+                <h6>Dharan-14, Nepal</h6>
+            </div>
+        </div>
+    </footer>
+    <!-- uptodowm -->
+    <div class="updown"><a href="#updown">
+        <i class='bx bx-up-arrow' ></i></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 a .bxs-cart-download {
@@ -370,6 +374,27 @@ text-decoration: none;
     gap: 1rem;
     flex-direction: column;
     width: 22vw;
+}
+.updown a{
+    color: white;
+}
+.updown{
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    transition: 0.3s ease;
+    border-radius:50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+}
+.updown:hover{
+    background-color: red;
+    color: #000000 !important;
 }
 
 /* media Quries */

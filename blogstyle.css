@@ -1,0 +1,11 @@
+.blogheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    color: white;
+    background-color: red;
+}
+.blogheading h1{
+    font-size: 5rem;
+}

@@ -13,9 +13,9 @@
 
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black" aria-label="Eighth navbar example">
+    <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark bg-black" aria-label="Eighth navbar example">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="light logo.png" alt="logo"
+            <a class="navbar-brand" href="index.html"><img src="light logo.png" alt="logo"
                     style="height: 50px; width: 80px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
                 aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,14 +32,14 @@
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">Bikes</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">New Bikes</a></li>
-                            <li><a class="dropdown-item" href="#">Find New Bikes</a></li>
-                            <li><a class="dropdown-item" href="#">Compare Bikes</a></li>
-                            <li><a class="dropdown-item" href="#">Check On-Road Price</a></li>
-                            <li><a class="dropdown-item" href="#">Locate Showrooms</a></li>
-                            <li><a class="dropdown-item" href="#">Upcoming Bikes</a></li>
-                            <li><a class="dropdown-item" href="#">New Launches</a></li>
-                            <li><a class="dropdown-item" href="#">Popular Brands</a></li>
+                            <li><a class="dropdown-item" href="bike.html">New Bikes</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Find New Bikes</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Compare Bikes</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Check On-Road Price</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Locate Showrooms</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Upcoming Bikes</a></li>
+                            <li><a class="dropdown-item" href="bike.html">New Launches</a></li>
+                            <li><a class="dropdown-item" href="bike.html">Popular Brands</a></li>
 
                         </ul>
                     </li>
@@ -47,20 +47,20 @@
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">Accessories</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Tires</a></li>
-                            <li><a class="dropdown-item" href="#">Tools & Maintenance</a></li>
-                            <li><a class="dropdown-item" href="#">Riding Gears</a></li>
-                            <li><a class="dropdown-item" href="#">Helmets</a></li>
-                            <li><a class="dropdown-item" href="#">Protections</a></li>
+                            <li><a class="dropdown-item" href="#accessories">Tires</a></li>
+                            <li><a class="dropdown-item" href="#accessories">Tools & Maintenance</a></li>
+                            <li><a class="dropdown-item" href="#accessories">Riding Gears</a></li>
+                            <li><a class="dropdown-item" href="#accessories">Helmets</a></li>
+                            <li><a class="dropdown-item" href="#accessories">Protections</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">Blogs</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">News</a></li>
-                            <li><a class="dropdown-item" href="#">Videos & Tips</a></li>
-                            <li><a class="dropdown-item" href="#">Expert Reviews</a></li>
+                            <li><a class="dropdown-item" href="#blogs">News</a></li>
+                            <li><a class="dropdown-item" href="#blogs">Videos & Tips</a></li>
+                            <li><a class="dropdown-item" href="#blogs">Expert Reviews</a></li>
 
                         </ul>
                     </li>
@@ -68,7 +68,7 @@
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">Pages</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="contactus.html">Contact Us</a></li>
                             <li><a class="dropdown-item" href="#">Faq's</a></li>
                             <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
                             <li><a class="dropdown-item" href="#">Terms & Conditions</a></li>
@@ -85,7 +85,7 @@
         </div>
     </nav>
     <!-- hero sections -->
-    <div class="hero bg-dark">
+    <div id="hero" class="hero bg-dark">
         <div class="herotext">
             <h1 style="color: rgb(236, 16, 16);">Yamaha</h1>
             <h3 style="font-size: 4rem;">MT 03</h3>
@@ -300,7 +300,7 @@
         </div>
     </section>
     <!-- bike assoserioes -->
-    <section class="bg-dark py-5 bassoserioes"
+    <section id="accessories" class="bg-dark py-5 bassoserioes"
         style="color: white; padding: 1rem 5rem; font-family: 'Times New Roman', Times, serif;">
         <h2 style="text-align: center;">DISCOVER OUR ACCESSORIES.</h2>
         <h1 style="text-align: center;"> EXPLORE YOUR <span style="color: red;">&nbsp;GEAR.</span></h1>
@@ -432,7 +432,7 @@
         </div>
     </section>
     <!-- bolgs and news -->
-    <section style="background-color: red; color: white;" class="py-3">
+    <section id="blogs" style="background-color: red; color: white;" class="py-3">
         <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 0.5rem;">
             <h3 style="color: black; font-weight: bolder;">UPDATES FROM BLOG</h3>
             <h2>OUR BLOGS & NEWS</h2>
@@ -446,7 +446,7 @@
                 <h4>Exploring Scenic Routes: Best Motorcycle Road Trips</h3>
                 <h5>Embark on unforgettable journeys with our guide to the most scenic motorcycle road trips.</h5>
                 <div class="veiw">
-                    <button type="button" class="btn btn-danger">Read More</button>
+                    <a href="blogs.html" type="button" class="btn btn-danger">Read More</a>
                     <h6 style="text-align: right;">by PK(Pawan Kalyan)</h6>
                 </div>
             </div>
@@ -458,7 +458,7 @@
                 <h4>Top 10 Motorcycle Models of the Year (Based on Sells & Ratings)</h3>
                     <h5>From vintage classics to modern marvels, take a journey through time as we trace the evolution of motorcycle design</h5>
                     <div class="veiw">
-                        <button type="button" class="btn btn-danger">Read More</button>
+                        <a href="blogs.html" type="button" class="btn btn-danger">Read More</a>
                         <h6 style="text-align: right;">by Mia Jessy</h6>
                     </div>
             </div>
@@ -470,7 +470,7 @@
                 <h4>History of Motorcycle Design: Evolution Over Decades</h3>
                 <h5>Explore the most sought-after motorcycle models that have taken the riding world by storm this year.</h5>
                 <div class="veiw">
-                    <button type="button" class="btn btn-danger">Read More</button>
+                    <a href="blogs.html" type="button" class="btn btn-danger">Read More</a>
                     <h6 style="text-align: right;">by Jonny Leone</h6>
                 </div>
             </div>
@@ -488,32 +488,31 @@
             <img src="light logo.png" alt="logo" style="width: 90px; height: 90px;">
             <p>Dive into a world of top-notch motorcycle and premium accessories. Elevate your bike's look and performance effortlessly or get your dream bike with us!</p>
             <div class="media">
-                <a href="www.facebook.com"><i class='bx bxl-facebook fs-2'></i></a>
-                <a href=""><i class='bx bxl-instagram fs-2' ></i></a>
-                <a href=""><i class='bx bxl-github fs-2' ></i></a>
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook fs-2'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram fs-2' ></i></a>
+                <a href="https://www.github.com/"><i class='bx bxl-github fs-2' ></i></a>
             </div>
         </div>
         <div class="services p-2" style="width: 22vw;">
             <h4>SERVICES</h4>
             <ul>
-                <li><a href="">✔️ Dirt Bike/OEM Parts</a></li>
-                <li>✔️ <a href="">Tires</a></li>
-                <li>✔️ <a href="">Maintenance Tools</a></li>
-                <li>✔️ <a href="">Riding Gears</a></li>
-                <li>✔️ <a href="">Helmets</a></li>
-                <li>✔️ <a href="">Protections</a></li>
+                <li><a href="#accessories">✔️ Dirt Bike/OEM Parts</a></li>
+                <li>✔️ <a href="#accessories">Tires</a></li>
+                <li>✔️ <a href="#accessories">Maintenance Tools</a></li>
+                <li>✔️ <a href="#accessories">Riding Gears</a></li>
+                <li>✔️ <a href="#accessories">Helmets</a></li>
+                <li>✔️ <a href="#accessories">Protections</a></li>
             </ul>
         </div>
         <div class="links p-2" style="width: 22vw;">
             <h4>QUICK LINKS</h4>
             <ul>
-                <li><a href="">✔️ Dirt Bike/OEM Parts</a></li>
-                <li>✔️ <a href="">Privacy Policy</a></li>
-                <li>✔️ <a href="">Refund Policy</a></li>
-                <li>✔️ <a href="">Terms of Service</a></li>
-                <li>✔️ <a href="">Refurbished Products</a></li>
-                <li>✔️ <a href="">Shipping Policies</a></li>
-                <li>✔️ <a href="">Sell with Us</a></li>
+                <li>✔️ <a href="blogs.html">Privacy Policy</a></li>
+                <li>✔️ <a href="blogs.html">Refund Policy</a></li>
+                <li>✔️ <a href="blogs.html">Terms of Service</a></li>
+                <li>✔️ <a href="blogs.html">Refurbished Products</a></li>
+                <li>✔️ <a href="blogs.html">Shipping Policies</a></li>
+                <li>✔️ <a href="blogs.html">Sell with Us</a></li>
             </ul>
         </div>
         <div class="contact">
@@ -532,6 +531,9 @@
             </div>
         </div>
     </footer>
+    <div class="updown"><a href="#hero">
+        <i class='bx bx-up-arrow' ></i></a>
+    </div>
 
 
 
