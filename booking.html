@@ -91,58 +91,63 @@
         <h4 class="booking-info">Book a service with ease by filling in the details below. Our team will swiftly respond
             to your request, ensuring your bike is in top-notch condition. For any queries, proposals, or further
             assistance, please don't hesitate to reach out to us. We're here to help!</h5>
-            <form action="">
+            <form action="" id="form" name="submit-to-google-sheet" >
                
 
-                    <select name="bike-brand" id="bike-brand" class="form-control">
-                        <option selected value="brand">--Select Bike Brand--</option>
-                        <option value="BMW">BMW</option>
-                        <option value="Honda">Honda</option>
-                        <option value="Yamaha">Yamaha</option>
-                        <option value="Royal Enfield">Royal Enfield</option>
-                        <option value="Kawasaki">Kawasaki</option>
-                    </select>
-
-
-                    <select class="form-control" name="bike-model" id="bike-model">
-                        <option selected value="Model">--Select Bike Model--</option>
-                        <option value="xt"> XT</option>
-                        <option value="x50">X50</option>
-                        <option value="rcs">RCS</option>
-                        <option value="sce">SCE</option>
-                    </select>
-
-
-                    <select class="form-control" name="bike-Engine" id="bike-Engine">
-                        <option selected value="Engine">--Select Bike Engine--</option>
-                        <option value="cylinedr">CYLINEDR</option>
-                        <option value="automatic">AUTOMATIC</option>
-                        <option value="electric">ELECTRIC</option>
-                        <option value="petrol">PETROL</option>
-                    </select>
-                    
-                    <select class="form-control" name="bike-accessories" id="bike-accessories">
-                        <option selected value="accessories">--Select Bike accessories--</option>
-                        <option value="jacket">Jacket</option>
-                        <option value="rainwear">Rainwear</option>
-                        <option value="helmet">Helmets</option>
-                        <option value="glove">Gloves</option>
-                        <option value="luggage">Luggage Box</option>
-                    </select>
-
-                
-                <input type="text" placeholder="Amit Singh" required class="form-control">
-                <input type="email" placeholder="abc@gmail.com" required class="form-control">
-                <input type="number" placeholder="+977 9801234567" required class="form-control">
-                <input type="text" placeholder="Address" required class="form-control">
-                <select name="payment-method" id="payment-method" required class="form-control">
-                    <option selected value="payment-method">--Payment Method--</option>
-                    <option value="cash">Cash on Delievery</option>
-                    <option value="online">Online Payment</option>
+                <select name="bike-brand" id="bike-brand" class="form-control">
+                    <option selected value="brand">--Select Bike Brand--</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Yamaha">Yamaha</option>
+                    <option value="Royal Enfield">Royal Enfield</option>
+                    <option value="Kawasaki">Kawasaki</option>
                 </select>
-                <button type="button" class="btn btn-danger form-control">Submit</button>
+        
+        
+                <select class="form-control" name="bike-model" id="bike-model">
+                    <option selected value="Model">--Select Bike Model--</option>
+                    <option value="xt"> XT</option>
+                    <option value="x50">X50</option>
+                    <option value="rcs">RCS</option>
+                    <option value="sce">SCE</option>
+                </select>
+        
+        
+                <select class="form-control" name="bike-Engine" id="bike-Engine">
+                    <option selected value="Engine">--Select Bike Engine--</option>
+                    <option value="cylinedr">CYLINEDR</option>
+                    <option value="automatic">AUTOMATIC</option>
+                    <option value="electric">ELECTRIC</option>
+                    <option value="petrol">PETROL</option>
+                </select>
+                
+                <select class="form-control" name="bike-accessories" id="bike-accessories">
+                    <option selected value="accessories">--Select Bike accessories--</option>
+                    <option value="jacket">Jacket</option>
+                    <option value="rainwear">Rainwear</option>
+                    <option value="helmet">Helmets</option>
+                    <option value="glove">Gloves</option>
+                    <option value="luggage">Luggage Box</option>
+                </select>
+        
+            
+            <input type="text" placeholder="Amit Singh" required class="form-control">
+            <input type="email" placeholder="abc@gmail.com" required class="form-control">
+            <input type="number" placeholder="+977 9801234567" required class="form-control">
+            <input type="text" placeholder="Address" required class="form-control">
+            <select name="payment-method" id="payment-method" required class="form-control">
+                <option selected value="payment-method">--Payment Method--</option>
+                <option value="cash">Cash on Delievery</option>
+                <option value="online">Online Payment</option>
+            </select>
+            <button type="button" class="btn btn-danger form-control">Submit</button>
+        
+        </form>
+        
+        
 
-            </form>
+
+            
     </div>
 
 
@@ -202,6 +207,10 @@
             <i class='bx bx-up-arrow'></i></a>
     </div>
 
+
+<!-- form -->
+
+    
 
 
 
