@@ -222,7 +222,7 @@ a .bxs-cart-download {
     flex-direction: column;
     gap: 2rem;
 }
-input[type="email"] {
+.signup-forbike input[type="email"] {
     border: 1px solid #ff0404;
     padding: 0.5rem 2.5rem 0.5rem 0.5rem ;
     outline: none;
@@ -231,7 +231,7 @@ input[type="email"] {
     background-color:  rgba(0, 0, 0, 0.3);
     
 }
-input[type="email"]:active{
+.signup-forbike input[type="email"]:active{
     background-color: #ff040425;
 }
 /* testimonals */

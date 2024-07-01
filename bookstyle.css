@@ -1,0 +1,49 @@
+.booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+    color: black;
+    background-image: url(signupbg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px red solid;
+}
+.booking h4{
+    font-weight: bold;
+    color: white;
+    background-color: #2225;
+    border-left: 2px red solid;
+    padding: 1rem;
+}
+.booking form{
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: #0007;
+    gap: 1rem;
+}
+@media (width < 1000px){
+    .booking h4{
+        font-size: 1.2rem;
+    }
+    .booking,.booking form{
+        padding: 3rem;
+    }
+    .booking form{
+        width: 70vw;
+    }
+}
+@media (width < 600px){
+    .booking h4{
+        font-size: 1rem;
+    }
+    .booking form{
+        width: 80vw;
+    }
+}
