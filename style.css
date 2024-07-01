@@ -514,6 +514,7 @@ text-decoration: none;
         width: 70vw;
         align-items: start;
         justify-content: start;
+        border-bottom: 2px red solid;
 
     }
     .footer .services,.footer .links{
