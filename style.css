@@ -477,6 +477,9 @@ text-decoration: none;
 }
 }
 @media (width < 600px){
+    .heroimage img{
+        height: 50vh !important;
+    }
     .bike-info{
         width: 90vw;
         margin: 0;
