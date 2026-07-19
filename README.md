@@ -1,6 +1,6 @@
 # 🚴 BikeCart
 
-> **Bike cart by SSK** — a clean and responsive bike-focused web project built using HTML and CSS.
+> **Bike cart by Amit MAhato** — a clean and responsive bike-focused web project built using HTML and CSS.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/amitmahato98/bikecart?style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/amitmahato98/bikecart?style=for-the-badge)
